@@ -60,5 +60,13 @@ lcm = n*m/gcd
 print("최대공약수 : %d" %gcd)
 print("최소공배수 : %d" %lcm)
 
+# 공약수 찾는 방식
+divisor=[]
+for i in (i, n+1):
+    if (n%i==0) and (m%i==0):
+        divisor.append(i)
+gcd = max(divisor)
+lcm = n*m/gcd
+
 
             
