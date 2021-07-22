@@ -53,7 +53,7 @@ result = int(number[0])
 if result < int(number[1]):
     result = int(number[1])
 print(result)
-
+ 
 # 실습 5
 number = input()
 number = number.split(" ")
