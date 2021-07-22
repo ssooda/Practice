@@ -73,3 +73,26 @@ print(result)
 # 실습 5
 arr = list(map(int, input().split()))
 print(sorted(arr))
+
+# 실습 5
+arr = list(map(int, input().split()))
+result = []
+for i in range(4):
+    a = min(arr)
+    result.append(a)
+    arr.remove(a)
+
+print(result)
+
+# 실습 1
+sent = input()
+print(sent[::-1])
+
+# 실습 2
+sent = input()
+cri = input()
+count = 0
+for i in sent:
+    if cri == i:
+        count +=1
+print(count)
